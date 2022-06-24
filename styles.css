@@ -1,0 +1,278 @@
+
+body {
+  background-color: #fffbf7;
+}
+
+h1 {
+  font-size: 60px;
+  color: #025157;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+p {
+  color: #8b8b8bcc;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+  font-family: sans-serif;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
+li {
+  display: inline;
+  margin: 0 25px 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 45px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  width: 15%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions > * {
+  margin: 0 10px;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.main {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.publish {
+  /* container styles if any */
+  margin-left: 30px;
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+iframe {
+  display: flex;
+  margin: auto;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.features {
+  margin-top: 5%;
+  background-color: #025157;
+  padding: 5% 10%;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  height: 660px;
+  /* grid-template-rows: repeat(2, 1fr); */
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.features .feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features .feature-card .feature-content {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.features .feature-card .feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.features .feature-card .feature-content img {
+  width: 50px;
+}
+
+.features .feature-card .feature-content h3 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+
+.features .feature-card .feature-content p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.features .feature-card .feature-image {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
+@media(max-width: 575px){
+  .navbar, .actions{
+    display: none;
+  }
+  .main{
+    margin-top: 140px;
+  }
+  .main h1{
+    font-size: 30px;
+  }
+
+  .banner > img{
+    width: 100%;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input{
+    width: 65%;
+  }
+
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video{
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+  body{
+    background-color: aqua;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+  body{
+    background-color: aqua;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+  body{
+    background-color: aqua;
+  }
+}
