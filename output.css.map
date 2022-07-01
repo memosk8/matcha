@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["scss/_global.scss","scss/main.scss"],"names":[],"mappings":"AASA;EACE,aAHW;EAIX,OAVgB;;;ACElB;EACE;EACA;EACA;EACA;;AAMA;EACE;EACA;;AAEA;EACE;;AAGE;EACE,ODtBS;ECuBT;EACA;EACA;;AAGF;EACE,OD5BQ;EC6BR;;AAIJ;EACE;EACA;EACA;EACA;;AAEA;EACE;;AAMR;EACE;EACA;EACA;EACA;EACA;;AAGF;EACE,ODrDY;;ACwDd;AAAA;EAEE,OD3DQ","file":"output.css"}

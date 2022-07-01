@@ -1,0 +1,13 @@
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$card-text: #4a4a4a;
+$metadata-text: #67b54b;
+$white: #ffffff;
+
+// fuentes de texto
+$font-title: "Alegreya", serif;
+
+%base-title {
+  font-family: $font-title;
+  color: $dark-green-text;
+}
